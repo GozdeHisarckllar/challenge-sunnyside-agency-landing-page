@@ -1,0 +1,17 @@
+@font-face {
+    font-family: Barlow;
+    font-weight: 600;
+    src: url('./Barlow-SemiBold.woff2') format('woff2');
+}
+
+@font-face {
+    font-family: Fraunces;
+    font-weight: 700;
+    src: url('./Fraunces-Bold.woff2') format('woff2');
+}
+
+@font-face {
+    font-family: Fraunces;
+    font-weight: 900;
+    src: url('./Fraunces-Black.woff2') format('woff2');
+}

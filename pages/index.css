@@ -1,0 +1,23 @@
+@import url('../vendors/fonts/fonts.css');
+@import url('../vendors/normalize.css');
+@import url('../blocks/page/page.css');
+@import url('../blocks/header/header.css');
+
+/*.attribution { font-size: 11px; text-align: center; }
+    .attribution a { color: hsl(228, 45%, 44%); }*/
+/*Fraunces, 'Lucida Grande', Arial, sans-serif;*/
+:root {
+    --soft-red: hsl(7, 99%, 70%);
+    --yellow: hsl(51, 100%, 49%);
+    --dark-cyan: hsl(167, 40%, 24%);
+    --dark-blue: hsl(198, 62%, 26%);
+    --moderate-cyan: hsl(168, 34%, 41%); 
+    --very-dark-blue: hsl(212, 27%, 19%);
+    --very-dark-grayish-blue: hsl(213, 9%, 39%);
+    --dark-grayish-blue: hsl(232, 10%, 55%);
+    --grayish-blue: hsl(210, 4%, 67%);
+    --white: hsl(0, 0%, 100%);
+
+    scroll-behavior: smooth;
+}
+

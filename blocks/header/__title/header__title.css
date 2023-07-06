@@ -1,0 +1,26 @@
+.header__title {
+    position: relative;
+    font-family: Fraunces, 'Lucida Grande', Arial, sans-serif;
+    font-weight: 900;
+    text-transform: uppercase;
+    text-align: center;
+    color: var(--white);
+}
+
+.header__title::before {
+    content: '';
+    position: absolute;
+    top: 132px;
+    left: 48%;
+    width: 36px;
+    height: 114px;
+    background: center/cover no-repeat transparent url('../../../images/icon-arrow-down.svg');
+}
+
+@media screen and (min-width: 680px) {
+    .header__title {
+        margin: 100px 0 0;
+        font-size: 50px;
+        letter-spacing: 8px;
+    }
+}

@@ -1,0 +1,13 @@
+.header__nav-links {
+    display: none;
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+@media screen and (min-width: 680px) {
+    .header__nav-links {
+        display: flex;
+        gap: 26px;
+    }
+}
