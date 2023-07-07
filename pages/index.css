@@ -2,10 +2,12 @@
 @import url('../vendors/normalize.css');
 @import url('../blocks/page/page.css');
 @import url('../blocks/header/header.css');
+@import url('../blocks/nav/nav.css');
 
 /*.attribution { font-size: 11px; text-align: center; }
     .attribution a { color: hsl(228, 45%, 44%); }*/
 /*Fraunces, 'Lucida Grande', Arial, sans-serif;*/
+/*680px mobile-desktop transition*/
 :root {
     --soft-red: hsl(7, 99%, 70%);
     --yellow: hsl(51, 100%, 49%);

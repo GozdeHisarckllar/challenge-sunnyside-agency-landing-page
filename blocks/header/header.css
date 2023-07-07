@@ -1,8 +1,3 @@
-@import url('./__nav/header__nav.css');
-@import url('./__nav-btn/header__nav-btn.css');
-@import url('./__nav-links/header__nav-links.css');
-@import url('./__nav-link/header__nav-link.css');
-@import url('./__nav-link/_type/header__nav-link_type_contact.css');
 @import url('./__title/header__title.css');
 
 
@@ -16,7 +11,7 @@
 
 @media screen and (min-width: 525px) {
     .header {
-        max-height: 700px;
+        max-height: 800px;
         /*max-height: 100vh;*/
         min-height: 595px;
         background: center/cover no-repeat url('../../images/desktop/image-header.jpg');

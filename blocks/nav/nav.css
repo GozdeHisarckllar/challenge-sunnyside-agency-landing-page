@@ -1,0 +1,21 @@
+@import url('./__btn/nav__btn.css');
+@import url('./__links/nav__links.css');
+@import url('./__nav-link/nav__link.css');
+@import url('./__nav-link/_type/nav__link_type_contact.css');
+
+
+.nav {
+    width: calc(100% - 48px);
+    margin: 0 auto;
+    padding: 30px 0 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: baseline;
+}
+
+@media screen and (min-width: 680px) {
+    .nav {
+        width: calc(100% - 72px);
+        padding-top: 40px;
+    }
+}

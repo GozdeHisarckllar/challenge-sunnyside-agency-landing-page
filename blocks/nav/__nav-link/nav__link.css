@@ -1,0 +1,27 @@
+.nav__link {
+    position: relative;
+    padding: 8px;
+    color: var(--white);
+    text-decoration: none;
+}
+
+@media screen and (min-width: 680px) {
+    .nav__link::after {
+        content: '';
+        position: absolute;
+        top: 90%;
+        left: 5%;
+        height: 3px;
+        width: 92%;
+        border-radius: 2px;
+        transform: scale(0);
+        /*width: 0;*/
+        background-color: var(--white);
+        transition: all .2s ease-in-out;
+    }
+
+    .nav__link:hover::after {
+        /*width: 100%;*/
+        transform: scale(1);
+    }
+}
