@@ -2,7 +2,7 @@
     position: relative;
     max-width: calc(100% - 48px);
     width: 100%;
-    margin: 130px auto 0;
+    margin: 110px auto 0;
     font-family: Fraunces, 'Lucida Grande', Arial, sans-serif;
     font-size: 42px;
     font-weight: 900;
@@ -12,7 +12,7 @@
     color: var(--white);
 }
 
-.header__title::before {
+/*.header__title::before {
     content: '';
     position: absolute;
     top: 160px;
@@ -20,11 +20,12 @@
     width: 36px;
     height: 114px;
     background: center/cover no-repeat transparent url('../../../images/icon-arrow-down.svg');
-}
+}*/
 
-@media screen and (min-width: 860px) {
+@media screen and (min-width: 525px) {
     .header__title {
         /*max-width: calc(100% - 72px);*/
+        margin-top: 130px;
         font-size: 54px;
         letter-spacing: 10px;
     }

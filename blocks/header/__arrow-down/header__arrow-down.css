@@ -1,0 +1,24 @@
+.header__arrow-down {
+    display: block;
+    text-decoration: none;
+    width: 46px;
+    height: 144px;
+    margin: 48px auto 0;
+    background: 
+        center/36px 114px 
+        no-repeat 
+        transparent 
+        url('../../../images/icon-arrow-down.svg');
+    text-align: center;
+    transition: opacity .2s ease-in-out;
+}
+
+.header__arrow-down:hover {
+    opacity: .6;
+}
+
+@media screen and (min-width: 860px) {
+    .header__arrow-down {
+        margin: 100px auto 0;
+    }
+}

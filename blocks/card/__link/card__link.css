@@ -1,0 +1,8 @@
+.card__link {
+    position: relative;
+    text-decoration: none;
+    color: var(--very-dark-blue);
+    text-transform: uppercase;
+    font-family: Fraunces, 'Lucida Grande', Arial, sans-serif;
+    font-weight: 900;
+}

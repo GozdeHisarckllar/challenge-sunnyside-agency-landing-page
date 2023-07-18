@@ -3,6 +3,11 @@
 @import url('../blocks/page/page.css');
 @import url('../blocks/header/header.css');
 @import url('../blocks/nav/nav.css');
+@import url('../blocks/about/about.css');
+@import url('../blocks/card/card.css');
+@import url('../blocks/card/_type/card_type_transform.css');
+@import url('../blocks/card/_type/card_type_graphic.css');
+@import url('../blocks/card/_type/card_type_photo.css');
 
 /*.attribution { font-size: 11px; text-align: center; }
     .attribution a { color: hsl(228, 45%, 44%); }*/

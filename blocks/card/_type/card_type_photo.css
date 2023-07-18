@@ -1,0 +1,11 @@
+.card_type_photo {
+    min-height: 600px;
+    background: center/cover no-repeat url('../../../images/mobile/image-photography.jpg');
+}
+
+@media screen and (min-width: 680px) {
+    .card_type_photo {
+        background: center/cover no-repeat url('../../../images/desktop/image-photography.jpg');
+        grid-column: 2/3;
+    }
+}

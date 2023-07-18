@@ -1,0 +1,13 @@
+.card_type_graphic {
+    min-height: 600px;
+    grid-column: 1/2;
+    background: center/cover no-repeat url('../../../images/mobile/image-graphic-design.jpg');
+}
+
+@media screen and (min-width: 680px) {
+    .card_type_graphic {
+        grid-column: 1/2;
+        background: center/cover no-repeat url('../../../images/desktop/image-graphic-design.jpg');
+
+    }
+}

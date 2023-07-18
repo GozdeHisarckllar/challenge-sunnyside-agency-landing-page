@@ -1,0 +1,5 @@
+@media screen and (min-width: 680px) {
+    .card_type_transform {
+        flex-direction: row-reverse;
+    }
+}

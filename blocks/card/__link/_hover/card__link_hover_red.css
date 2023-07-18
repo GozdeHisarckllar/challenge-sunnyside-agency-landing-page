@@ -1,0 +1,18 @@
+.card__link_hover_red::before {
+    content: '';
+    position: absolute;
+    top: 65%;
+    left: -5%;
+    width: 0;
+    height: 10px;
+    border-radius: 2px;
+    background-color: var(--soft-red);
+    opacity: .4;
+    /*transform: scale(0);*/
+    z-index: -1;
+    transition: all .2s ease-in-out;
+}
+
+.card__link_hover_red:hover::before {
+    width: 110%;
+}

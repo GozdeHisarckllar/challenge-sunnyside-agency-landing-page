@@ -1,7 +1,7 @@
 @import url('./__btn/nav__btn.css');
 @import url('./__links/nav__links.css');
-@import url('./__nav-link/nav__link.css');
-@import url('./__nav-link/_type/nav__link_type_contact.css');
+@import url('./__link/nav__link.css');
+@import url('./__link/_type/nav__link_type_contact.css');
 
 
 .nav {
