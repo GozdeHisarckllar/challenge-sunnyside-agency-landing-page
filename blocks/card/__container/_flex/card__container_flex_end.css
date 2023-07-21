@@ -1,0 +1,12 @@
+.card__container_flex_end {
+    padding: 0px 24px 56px;
+}
+
+@media screen and (min-width: 680px) {
+    .card__container_flex_end {
+        flex-basis: 400px;/**********/
+        justify-content: flex-end;
+        align-items: center;
+        text-align: center;
+    }
+}

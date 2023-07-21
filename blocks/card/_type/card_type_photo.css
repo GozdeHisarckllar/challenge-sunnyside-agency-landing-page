@@ -1,4 +1,5 @@
 .card_type_photo {
+    justify-content: flex-end;
     min-height: 600px;
     background: center/cover no-repeat url('../../../images/mobile/image-photography.jpg');
 }

@@ -1,0 +1,16 @@
+.testimonial__title {
+    margin: 0;
+    text-transform: uppercase;
+    font-family: Fraunces, 'Lucida Grande', Arial, sans-serif;
+    font-weight: 900;
+    font-size: 15px;
+    letter-spacing: 6px;
+    color: var(--grayish-blue);
+}
+
+@media screen and (min-width: 680px) {
+    .testimonial__title {
+        font-size: 18px;
+        grid-column: 1/4;
+    }
+}

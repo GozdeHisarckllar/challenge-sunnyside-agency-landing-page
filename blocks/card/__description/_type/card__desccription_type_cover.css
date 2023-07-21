@@ -1,0 +1,11 @@
+.card__description_type_cover {
+    font-size: 15px;
+    line-height: 1.5;
+}
+
+@media screen and (min-width: 680px) {
+    .card__description_type_cover {
+        font-size: 18px;
+        line-height: 1.7;
+    }
+}

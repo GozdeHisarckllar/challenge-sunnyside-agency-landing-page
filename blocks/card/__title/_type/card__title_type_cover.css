@@ -1,0 +1,9 @@
+.card__title_type_cover {
+    font-size: 30px;
+}
+
+@media screen and (min-width: 680px) {
+    .card__title_type_cover{
+        font-size: 32px;
+    }
+}

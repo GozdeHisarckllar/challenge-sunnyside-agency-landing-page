@@ -2,11 +2,19 @@
 @import url('./_type/card_type_photo.css');*/
 @import url('./__image/card__image.css');
 @import url('./__container/card__container.css');
+@import url('./__container/_flex/card__container_flex_end.css');
 @import url('./__title/card__title.css');
+@import url('./__title/_type/card__title_type_graphic.css');
+@import url('./__title/_type/card__title_type_photo.css');
+@import url('./__title/_type/card__title_type_cover.css');
 @import url('./__description/card__description.css');
+@import url('./__description/_type/card__description_type_graphic.css');
+@import url('./__description/_type/card__description_type_photo.css');
+@import url('./__description/_type/card__desccription_type_cover.css');
 @import url('./__link/card__link.css');
 @import url('./__link/_hover/card__link_hover_yellow.css');
 @import url('./__link/_hover/card__link_hover_red.css');
+
 
 .card {
     width: 100%;

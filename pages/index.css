@@ -8,6 +8,7 @@
 @import url('../blocks/card/_type/card_type_transform.css');
 @import url('../blocks/card/_type/card_type_graphic.css');
 @import url('../blocks/card/_type/card_type_photo.css');
+@import url('../blocks/testimonial/testimonial.css');
 
 /*.attribution { font-size: 11px; text-align: center; }
     .attribution a { color: hsl(228, 45%, 44%); }*/

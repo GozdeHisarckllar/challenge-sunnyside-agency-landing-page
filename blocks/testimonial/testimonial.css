@@ -1,0 +1,20 @@
+@import url('./__container/testimonial__container.css');
+@import url('./__title/testimonial__title.css');
+@import url('./__avatar/testimonial__avatar.css');
+
+.testimonial {
+    width: calc(100% - 48px);
+    margin: 0 auto;
+    padding: 56px 0 68px;
+    text-align: center;
+}
+
+@media screen and (min-width: 680px) {
+    .testimonial {
+        width: calc(100% - 270px);
+        padding: 120px 0;
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        gap: 20px;
+    }
+}

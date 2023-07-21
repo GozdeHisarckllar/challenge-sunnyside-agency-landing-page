@@ -1,6 +1,6 @@
 .card_type_graphic {
+    justify-content: flex-end;
     min-height: 600px;
-    grid-column: 1/2;
     background: center/cover no-repeat url('../../../images/mobile/image-graphic-design.jpg');
 }
 
