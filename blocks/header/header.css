@@ -1,10 +1,13 @@
 @import url('./__title/header__title.css');
 @import url('./__arrow-down/header__arrow-down.css');
+@import url('./__arrow-down/_hidden/header__arrow-down_hidden.css');
 
 
 .header {
+    position: relative;
     width: 100%;
-    max-height: 580px;
+    /*max-height: 580px;*/
+    max-height: 100vh;
     min-height: 490px;
     height: 100vh;
     background: center/cover no-repeat url('../../images/mobile/image-header.jpg');
@@ -12,8 +15,7 @@
 
 @media screen and (min-width: 525px) {
     .header {
-        max-height: 800px;
-        /*max-height: 100vh;*/
+        /*max-height: 800px;*/
         min-height: 595px;
         background: center/cover no-repeat url('../../images/desktop/image-header.jpg');
     }

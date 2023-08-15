@@ -1,0 +1,12 @@
+.testimonial__comment {
+    margin: 30px 0;
+    font-size: 18px;
+    line-height: 1.5;
+    color: var(--very-dark-grayish-blue);
+}
+
+@media screen and (min-width: 680px) {
+    .testimonial__comment {
+        margin: 50px 0 68px;
+    }
+}

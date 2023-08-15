@@ -12,9 +12,9 @@
     <div class="page">
         <header class="header">
             <nav class="nav">
-              <img class="nav__logo" src="./images/logo.svg" alt="sunnyside agency logo">
+              <img class="nav__logo" src="/images/logo.svg" alt="sunnyside agency logo">
               <button class="nav__btn" type="button" aria-label="open the navbar"></button>
-              <ul class="nav__links nav__links_mobile">
+              <ul class="nav__links">
                 <li class="nav__item">
                   <a class="nav__link" href="#about">About</a>
                 </li>
@@ -24,7 +24,7 @@
                 <li class="nav__item">
                   <a class="nav__link" href="#project">Projects</a>
                 </li>
-                <li class="nav__item">
+                <li class="nav__item nav__item_type_contact">
                   <a class="nav__link nav__link_type_contact" href="#contact">CONTACT</a>
                 </li>
               </ul>
@@ -35,7 +35,7 @@
         <main class="content">
             <section class="about" id="about">
               <article class="card card_type_transform">
-                <img class="card__image" src="./images/mobile/image-transform.jpg" alt="a food item with a cast shadow">
+                <img class="card__image" src="/images/mobile/image-transform.jpg" alt="a food item with a cast shadow">
                 <div class="card__container">
                   <h2 class="card__title">Transform your brand</h2>
                   <p class="card__description">
@@ -45,8 +45,8 @@
                   <a class="card__link card__link_hover_yellow" href="#">Learn more</a>
                 </div>
               </article>
-              <article class="card">
-                <img class="card__image" src="./images/mobile/image-stand-out.jpg" alt="a cup that sunlight reflects on">
+              <article class="card"><!-------------------picture tag-->
+                <img class="card__image" src="/images/mobile/image-stand-out.jpg" alt="a cup that sunlight reflects on">
                 <div class="card__container">
                   <h2 class="card__title">Stand out to the right audience</h2>
                   <p class="card__description">
@@ -82,7 +82,7 @@
                     We put our trust in Sunnyside and they delivered, making sure our needs were met and deadlines were always hit.
                   </p>
                   <p class="testimonial__name">Emily R.</p>
-                  <p class="testimonial_job-title">Marketing Director</p>
+                  <p class="testimonial__job-title">Marketing Director</p>
                 </div>
                 <div class="testimonial__container">
                   <img class="testimonial__avatar" src="/images/image-thomas.jpg" alt="Thomas S.'s avatar">
@@ -90,7 +90,7 @@
                     Sunnyside's enthusiasm coupled with their keen interest in our brand's success made it a satisfying and enjoyable experience.
                   </p>
                   <p class="testimonial__name">Thomas S.</p>
-                  <p class="testimonial_job-title">Chief Operating Officer</p>
+                  <p class="testimonial__job-title">Chief Operating Officer</p>
                 </div>
                 <div class="testimonial__container">
                   <img class="testimonial__avatar" src="/images/image-jennie.jpg" alt="Jenny F.'s avatar">
@@ -98,16 +98,71 @@
                     Incredible end result! Our sales increased over 400% when we worked with Sunnyside. Highly recommended!
                   </p>
                   <p class="testimonial__name">Jenny F.</p>
-                  <p class="testimonial_job-title">Business Owner</p>
+                  <p class="testimonial__job-title">Business Owner</p>
                 </div>
+            </section>
+            <section class="gallery">
+              <picture class="gallery__img-container">
+                <source media="(min-width: 680px)" srcset="/images/desktop/image-gallery-milkbottles.jpg">
+                <image class="gallery__image" src="/images/mobile/image-gallery-milkbottles.jpg" alt="milk bottles arranged in a row">
+              </picture>
+              <picture class="gallery__img-container">
+                <source media="(min-width: 680px)" srcset="/images/desktop/image-gallery-orange.jpg">
+                <image class="gallery__image" src="/images/mobile/image-gallery-orange.jpg" alt="orange slice on a plate">              
+              </picture>
+              <picture class="gallery__img-container">
+                <source media="(min-width: 680px)" srcset="/images/desktop/image-gallery-cone.jpg">
+                <image class="gallery__image" src="/images/mobile/image-gallery-cone.jpg" alt="ice cream cone">              
+              </picture>
+              <picture class="gallery__img-container">
+                <source media="(min-width: 680px)" srcset="/images/desktop/image-gallery-sugarcubes.jpg">
+                <image class="gallery__image" src="/images/mobile/image-gallery-sugar-cubes.jpg" alt="stacked sugarcubes">  
+              </picture>
             </section>
         </main>
         <footer class="footer">
-            <div class="footer__attribution">
-              Challenge by <a class="footer__referral-link" href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
-              <p class="footer__author">2023. Coded by Your Name Here.</p>
-            </div>
+          <nav class="footer__nav">
+            <img class="footer__logo" src="/images/logo.svg" alt="Sunnyside agency logo">
+            <ul class="footer__links footer__links_content_page">
+              <li class="footer__list-item">
+                <a class="footer__link footer__link_type_nav" href="#">About</a>
+              </li>
+              <li class="footer__list-item">
+                <a class="footer__link footer__link_type_nav" href="#">Services</a>
+              </li>
+              <li class="footer__list-item">
+                <a class="footer__link footer__link_type_nav" href="#">Projects</a>
+              </li>
+            </ul>
+          </nav>
+          <ul class="footer__links footer__links_content_social">
+            <li class="footer__list-item">
+              <a class="footer__link" href="#">
+                <img class="footer__icon footer__icon_social_facebook" src="/images/icon-facebook.svg" alt="facebook icon">
+              </a>
+            </li>
+            <li class="footer__list-item">
+              <a class="footer__link" href="#">
+                <img class="footer__icon footer__icon_social_instagram" src="/images/icon-instagram.svg" alt="instagram icon">
+              </a>
+            </li>
+            <li class="footer__list-item">
+              <a class="footer__link" href="#">
+                <img class="footer__icon footer__icon_social_twitter" src="/images/icon-twitter.svg" alt="twitter icon">
+              </a>
+            </li>
+            <li class="footer__list-item">
+              <a class="footer__link" href="#">
+                <img class="footer__icon footer__icon_social_pinterest" src="/images/icon-pinterest.svg" alt="pinterest icon">
+              </a>
+            </li>
+          </ul>
+          <div class="footer__attribution">
+            Challenge by <a class="footer__ref-link" href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
+            <p class="footer__author">2023. Coded by Gözde Hisarcıklılar.</p>
+          </div>
         </footer>
     </div>
+    <script src="/pages/index.js"></script>
 </body>
 </html>

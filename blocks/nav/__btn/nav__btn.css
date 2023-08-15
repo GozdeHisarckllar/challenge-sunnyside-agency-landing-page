@@ -1,7 +1,7 @@
 .nav__btn {
     display: block;
-    width: 24px;
-    height: 18px;
+    width: 22px;
+    height: 17px;
     background: center/cover no-repeat transparent url('../../../images/icon-hamburger.svg');
     border: none;
     transform: scale(1.1);

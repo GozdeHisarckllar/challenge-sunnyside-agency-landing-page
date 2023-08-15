@@ -1,13 +1,36 @@
 .nav__links {
-    display: none;
+    /*display: none;*/
+    visibility: hidden;
+    opacity: 0;
+    position: absolute;
     margin: 0;
     padding: 0;
     list-style: none;
+    transition: opacity .2s ease-in-out;
+}
+
+.nav__links::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    right: 0;
+    width: 44px;
+    height: 44px;
+    background-color: var(--white);
+    transform: skewY(314deg);
 }
 
 @media screen and (min-width: 680px) {
     .nav__links {
         display: flex;
+        position: relative;
+        align-items: baseline;
         gap: 26px;
+        visibility: visible;
+        opacity: 1;
+    }
+
+    .nav__links::before {
+        content: none;
     }
 }

@@ -1,8 +1,8 @@
 .nav__link_type_contact {
     position: relative;
-    padding: 14px 26px;
+    padding: 17px 32px;
     font-family: Fraunces, 'Lucida Grande', Arial, sans-serif;
-    font-size: 13px;
+    font-size: 15px;
     font-weight: 700;
     color: var(--very-dark-blue);
     z-index: 1;
@@ -16,7 +16,7 @@
     left: 0;
     width: 100%;
     height: 100%;
-    background-color: var(--white);
+    background-color: var(--yellow);
     border-radius: 30px;
     z-index: -1;
     transition: opacity .2s ease-in-out;
@@ -31,15 +31,22 @@
     content: none;
 }
 
-.nav__link_type_contact:hover {
-    color: var(--white);
-}
-
 .nav__link_type_contact:hover::before {
     opacity: .3;
 }
 
 @media screen and (min-width: 680px) {
+    .nav__link_type_contact {
+        font-size: 13px;
+        padding: 15px 24px;
+    }
+
+    .nav__link_type_contact::before {
+        background-color: var(--white);
+        
+    }
     
-    
+    .nav__link_type_contact:hover {
+        color: var(--white);
+    }
 }

@@ -1,0 +1,10 @@
+.footer__link_type_nav {
+    font-size: 18px;
+    text-decoration: none;
+    color: var(--moderate-cyan);
+    transition: color .2s ease-in-out;
+}
+
+.footer__link_type_nav:hover {
+    color: #fff;
+}

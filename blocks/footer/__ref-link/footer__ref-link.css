@@ -1,0 +1,9 @@
+.footer__ref-link {
+    text-decoration: none;
+    color: var(--dark-cyan);
+    transition: color .15s ease-out;
+}
+
+.footer__ref-link:hover {
+    color: var(--moderate-cyan);
+}

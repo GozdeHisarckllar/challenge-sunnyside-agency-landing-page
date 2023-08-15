@@ -1,0 +1,15 @@
+@import url('./__logo/footer__logo.css');
+@import url('./__links/footer__links.css');
+@import url('./__links/_content/footer__links_content_page.css');
+@import url('./__links/_content/footer__links_content_social.css');
+@import url('./__link/footer__link.css');
+@import url('./__link/_type/footer__link_type_nav.css');
+@import url('./__attribution/footer__attribution.css');
+@import url('./__ref-link/footer__ref-link.css');
+@import url('./__author/footer__author.css');
+
+.footer {
+    padding: 68px 0 30px;
+    background-color: var(--light-cyan);
+    text-align: center;
+}

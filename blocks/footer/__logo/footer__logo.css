@@ -1,0 +1,6 @@
+.footer__logo {
+    transform: scale(1.4);
+    fill: var(--light-cyan);
+    text-align: center;
+    filter: invert(0.7) sepia(1) saturate(4) hue-rotate(120deg);
+}
