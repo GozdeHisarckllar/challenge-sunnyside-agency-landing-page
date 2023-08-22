@@ -17,18 +17,16 @@
         content: '';
         position: absolute;
         top: 90%;
-        left: 9%;/*5*/
+        left: 9%;
         height: 3px;
-        width: 85%;/*92*/
+        width: 85%;
         border-radius: 2px;
         transform: scale(0);
-        /*width: 0;*/
-        background-color: var(--white);
+        background-color: var(--yellow);
         transition: all .2s ease-in-out;
     }
 
     .nav__link:hover::after {
-        /*width: 100%;*/
         transform: scale(1);
     }
 }

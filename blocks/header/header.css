@@ -13,7 +13,7 @@
     background: center/cover no-repeat url('../../images/mobile/image-header.jpg');
 }
 
-@media screen and (min-width: 525px) {
+@media screen and (min-width: 680px) {
     .header {
         /*max-height: 800px;*/
         min-height: 595px;

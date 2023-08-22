@@ -11,7 +11,8 @@
 
 @media screen and (min-width: 680px) {
     .card__container {
-        flex-basis: 450px;
+        width: 50%;
+        box-sizing: border-box;
         align-items: flex-start;
         gap: 36px;
         text-align: left;

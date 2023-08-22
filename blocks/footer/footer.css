@@ -9,7 +9,7 @@
 @import url('./__author/footer__author.css');
 
 .footer {
-    padding: 68px 0 30px;
+    padding: 68px 0 36px;
     background-color: var(--light-cyan);
     text-align: center;
 }

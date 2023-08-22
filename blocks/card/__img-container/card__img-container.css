@@ -1,0 +1,9 @@
+.card__img-container {
+    width: 100%;
+}
+
+@media screen and (min-width: 680px) {
+    .card__img-container {
+        width: 50%;
+    }
+}
