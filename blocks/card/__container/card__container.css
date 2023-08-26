@@ -12,10 +12,15 @@
 @media screen and (min-width: 680px) {
     .card__container {
         width: 50%;
-        padding: 68px 128px;
         box-sizing: border-box;
         align-items: flex-start;
         gap: 36px;
         text-align: left;
+    }
+}
+
+@media screen and (min-width: 990px) {
+    .card__container {
+        padding: 68px 128px;
     }
 }
