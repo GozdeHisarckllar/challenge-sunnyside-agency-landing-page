@@ -27,9 +27,9 @@ Users should be able to:
 
 ![Main](./images/screenshots/screenshot.jpg)
 <div>
-  <img src='./images/screenshots/screenshot-1.jpg' alt='desktop' width='300px'/>
-  <img src='./images/screenshots/screenshot-2.jpg' alt='mobile' width='150px'/>
-  <img src='./images/screenshots/screenshot-3.jpg' alt='mobile-navbar' width='200px'/>
+  <img src='./images/screenshots/screenshot-1.jpg' alt='desktop' width='350px'/>
+  <img src='./images/screenshots/screenshot-2.jpg' alt='mobile' width='175px'/>
+  <img src='./images/screenshots/screenshot-3.jpg' alt='mobile-navbar' width='172px'/>
 </div>
 
 ### Links
