@@ -14,11 +14,17 @@
 
 @media screen and (min-width: 680px) {
     .testimonial {
-        width: calc(100% - 270px);
+        width: calc(100% - 128px);
         padding: 120px 0;
         display: grid;
         grid-template-columns: repeat(3, 1fr);
         gap: 40px;
         align-items: start;
+    }
+}
+
+@media screen and (min-width: 990px) {
+    .testimonial {
+        width: calc(100% - 270px);
     }
 }
