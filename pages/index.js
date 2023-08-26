@@ -45,10 +45,10 @@ for (const icon of footerIcons) {
     const socialName = icon.alt.match(/\w+(?=\s)/)
 
     icon.addEventListener('mouseover', () => {
-        icon.src = `../images/icon-${socialName}-hover.svg` 
+        icon.src = `./images/icon-${socialName}-hover.svg` 
     }) 
 
     icon.addEventListener('mouseout', () => {
-        icon.src = `../images/icon-${socialName}.svg` 
+        icon.src = `./images/icon-${socialName}.svg` 
     })
 }
