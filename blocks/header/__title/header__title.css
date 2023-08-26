@@ -12,19 +12,8 @@
     color: var(--white);
 }
 
-/*.header__title::before {
-    content: '';
-    position: absolute;
-    top: 160px;
-    left: 48%;
-    width: 36px;
-    height: 114px;
-    background: center/cover no-repeat transparent url('../../../images/icon-arrow-down.svg');
-}*/
-
 @media screen and (min-width: 525px) {
     .header__title {
-        /*max-width: calc(100% - 72px);*/
         margin-top: 130px;
         font-size: 54px;
         letter-spacing: 10px;
