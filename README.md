@@ -48,7 +48,7 @@ Users should be able to:
 - Mobile-first workflow
 - JavaScript
 
-* I made both the layout and the images responsive to desktop and mobile screen viewports.
+* I made both the layout and the images responsive to desktop and mobile viewports.
 
 * I preferred the height of the background image in the header section to be equal to 100% of the viewport's height. Then, I added interactivity to the arrow SVG element in order to direct user to the main content.
 
