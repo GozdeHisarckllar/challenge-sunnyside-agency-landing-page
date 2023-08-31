@@ -2,7 +2,7 @@ const navBtn = document.querySelector('.nav__btn')
 const navLinks = document.querySelector('.nav__links')
 const headerArrowDown = document.querySelector('.header__arrow-down')
 const footerIcons = Array.from(document.querySelectorAll('.footer__icon'))
-isMobileNavbarOpen = false
+let isMobileNavbarOpen = false
 
 function openMobileNavbar() {
     navLinks.classList.add('nav__links_mobile')
@@ -18,29 +18,6 @@ function closeMobileNavbar() {
     isMobileNavbarOpen = false
 }
 
-window.addEventListener('resize', (event) => {
-    if (window.innerWidth >= 680) {
-        closeMobileNavbar()
-    }
-})
-
-navBtn.addEventListener('click', (event) => {
-    if (navLinks.classList.contains('nav__links_mobile')) {
-        closeMobileNavbar()
-    } else {
-        openMobileNavbar()
-    }
-}) 
-
-window.addEventListener('click', (event) => {
-    if (isMobileNavbarOpen 
-        && !(event.target.classList.contains('nav__links')) 
-        && !(event.target.classList.contains('nav__link'))
-    )
-        closeMobileNavbar()
-    }
-)
-
 for (const icon of footerIcons) {
     const socialName = icon.alt.match(/\w+(?=\s)/)
 
@@ -52,3 +29,26 @@ for (const icon of footerIcons) {
         icon.src = `./images/icon-${socialName}.svg` 
     })
 }
+
+window.addEventListener('resize', (event) => {
+    if (window.innerWidth >= 680) {
+        closeMobileNavbar()
+    }
+})
+
+document.addEventListener('click', (event) => {
+    if (isMobileNavbarOpen 
+        && !(event.target.classList.contains('nav__links')) 
+        && !(event.target.classList.contains('nav__link'))
+    )
+        closeMobileNavbar()
+    }
+)
+
+navBtn.addEventListener('click', (event) => {
+    if (navLinks.classList.contains('nav__links_mobile')) {
+        closeMobileNavbar()
+    } else {
+        openMobileNavbar()
+    }
+}) 
